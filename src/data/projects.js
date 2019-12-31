@@ -1,49 +1,67 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Physical Causality in Grounded Word Acquisition',
+    image: '/images/projects/nlp_research.png',
+    start: '2020-05',
+    end: '2021-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'We discovered that understanding physical causality brings verb acquisition and noun grounding '
+      + 'into a bootstrapping loop with 5.2% to 13.3% improvement, which is significant '
+      + 'under McNemar\'s test and t-test.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Fuzzy Fingerprinting Graph Neural Networks (FF-GNN) for Graph-Level Supervised Learning',
+    image: '/images/projects/graph_research.png',
+    start: '2019-10',
+    end: '2020-12',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'We proposed a novel FF-GNN to improve graph fingerprinting methods by parameterizing with a '
+      + 'multi-channel fuzzy histogram, which matches the state-of-the-art performance '
+      + 'and has high computational efficiency.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Iterative Data Processing with Spark',
+    image: '/images/projects/spark_project.png',
+    start: '2020-12',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Implemented the PageRank algorithm with Scala and Spark to find the most influential users '
+      + 'in a Twitter social graph, and deployed the Spark applications on Azure HDInsight and Databricks.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'C++ Implementation of 2048',
+    image: '/images/projects/2048_project.gif',
+    start: '2019-07',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Implemented a C++ version of the game 2048 which responded to player\'s keystrokes, '
+      + 'and added support for customized tiles such as Unicode Emojis.',
+  },
+  {
+    title: 'Group Project for VV 471 Numerical Methods',
+    image: '/images/projects/numerical_project.png',
+    start: '2019-06',
+    end: '2019-08',
+    desc:
+      'We used MATLAB to solve a nonlinear optimization task from scratch, aiming to find the minimum for an objective function '
+      + 'which integrates the exponential of polynomial function with 101 degrees.',
+  },
+  {
+    title: 'Breast Cancer Dataset Analysis',
+    image: '/images/projects/datamining_project.png',
+    start: '2019-11',
+    end: '2019-12',
+    desc:
+      'Based on "Breast Cancer Wisconsin Data Set", '
+      + 'applied principal component analysis to explore the combination of most informative predictors, '
+      + 'and compared different methods like QDA and random forest on R. ',
+  },
+  {
+    title: 'Soft Clustering using GMM',
+    image: '/images/projects/ml_project.png',
+    start: '2020-11',
+    desc:
+      'Implemented the expectation–maximization (EM) algorithm for Gaussian Mixture Modelling (GMM) '
+      + 'using BIC as criteria, and found cluster assignment for each points probabilistically.',
   },
 ];
 

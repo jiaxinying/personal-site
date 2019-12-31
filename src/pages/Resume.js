@@ -7,25 +7,25 @@ import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
-import References from '../components/Resume/References';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
-import positions from '../data/resume/positions';
+import research from '../data/resume/research';
+import projects from '../data/resume/projects';
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
   'Education',
-  'Experience',
+  'Research',
+  'Projects',
   'Skills',
   'Courses',
-  'References',
 ];
 
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Jiaxin Ying's Resume."
   >
     <article className="post" id="resume">
       <header>
@@ -41,10 +41,10 @@ const Resume = () => (
         </div>
       </header>
       <Education data={degrees} />
-      <Experience data={positions} />
+      <Experience data={research} id="research" section="Research" />
+      <Experience data={projects} id="projects" section="Projects" />
       <Skills skills={skills} categories={categories} />
       <Courses data={courses} />
-      <References />
 
     </article>
   </Main>
